@@ -1,33 +1,51 @@
 @charset "UTF-8";
 
-* html .charset {
-    margin: 0px;
-    padding: 0px;
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+:root{
+    --fonte1: verdana, geneva, tahoma, sans-serif;
+    --fonte2: 'Playfair Display', serif;
+    --fonte3: 'Libre Baskerville', serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 html, body {
     min-height: 100vh;
-    background-color: darkgray;
-
+    background-color:black;
+    font-family: var(--fonte1);
 
 }
 
 header {
     background-color:black;
     color: white;
+    margin: 1;
+    padding: 1;
     text-align: center;
+    
 
 }
 
 header > h1 {
 padding-top: 50px;
 font-variant: small-caps;
+font-family: var(--fonte3);
+font-size: 8vw;
+padding-top: 20px;
 
 }
 
 header > p {
     padding-bottom: 50px;
+    font-size: 1vw;
 }
 
 a {
@@ -47,7 +65,14 @@ section {
     padding-bottom: 10vh;
     line-height:2em;
     padding-left: 30px;
+    font-family: var(--fonte2);
+    font-size: 1.4vw;
 
+}
+
+section > p {
+    padding-bottom: 2em;
+    
 }
 
 section.normal {
@@ -57,25 +82,66 @@ section.normal {
 }
 
 section.imagem {
-    background-color:rgb(0, 0, 0);
-    color: white;
+    background-color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-size: cover;
 
 }
+
 
 section.imagem > p{
-    width: 400px;
-    background-color:rgba(255, 255, 255, 0.326);
+    display: inline-block;
+    background-color:rgba(0, 0, 0, 0.543);
+    text-shadow: 1px 1px 0px black;
+}
 
+
+
+section#img01{
+background-image: url('../imagens/background001.jpg');
+background-position: right center;
 
 }
 
-#video{
-   
+
+section#img02{
+    background-image: url('../imagens/background002.jpg');
+
 }
+
+div{
+  padding: 30px;
+}
+
+iframe {
+    background-color: black;
+       height: 30vw; /* 90% da altura da tela 
+       */
+       width: 60vw;
+        display: block;
+        margin: 0 auto; /* Centraliza */
+        padding: 0px;
+    }
+
+
+    #depoisvideo{
+        color: white;
+        font-family: var(--fonte2);
+        font-size: 1vw;
+        padding: 50px;
+        font-variant: small-caps;
+        text-align: center;
+        padding-top: 0px ;
+       
+
+    }
 
 footer {
-    background-color: black;
+    background-color: rgba(223, 17, 17, 0.127);
     color: white;
     text-align: center;
     padding: 10px;
+    font-family: var(--fonte3);
+    font-size: 1.5vw;
 }
