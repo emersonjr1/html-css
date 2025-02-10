@@ -1,0 +1,9 @@
+<colgrup>
+    <col class="">
+    <col>
+    
+</colgrup>
+
+usa colgrup paa criar grupos de colunas na tabela 
+
+Criar <div></div> na <table></table> para quando abrir coluna em celular, a coluna rolar para cima ou baixo (x,y). Usar o overflow-x no CSS. <Style></Style><div class=""></div>

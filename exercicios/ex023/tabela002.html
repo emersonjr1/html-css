@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{font-family: arial,helvetica,sans-serif;
+        
+        }
+
+
+
+        table{
+            border: 1px solid black;
+            border-collapse: collapse;
+
+        }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color:lightgray;
+            border: 1px solid black;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+
+        }
+
+        thead, tfoot{
+            background-color: rgb(30, 29, 29);
+            color: white;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(30, 29, 29);
+        }
+
+
+        tbody > tr:nth-child(odd){ /* 2n ou even(par) */
+            background-color: lightgray;
+        }
+
+    </style>
+
+
+
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+        <!--Anatomia para Tabelas Grandes 
+        Caption = Legenda da Tabela
+        THEAD 
+            tr td th
+        TBODY
+            tr , td, th,
+        TFOOT
+            tr , td , th
+
+    -->
+
+    <table>
+        <Caption>Estados do Brasil Mais conhecidos!</Caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px">População</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>45.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>46.265.265</td>
+            </tr>
+
+            <tr>
+                <td>Rio Janeiro</td>
+                <td>65.236.546</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>46.265.265</td>
+            </tr>
+
+            <tr>
+                <td>Rio Janeiro</td>
+                <td>65.236.546</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>46.265.265</td>
+            </tr>
+
+            <tr>
+                <td>Rio Janeiro</td>
+                <td>65.236.546</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>46.265.265</td>
+            </tr>
+
+            <tr>
+                <td>Rio Janeiro</td>
+                <td>65.236.546</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>46.265.265</td>
+            </tr>
+
+            <tr>
+                <td>Rio Janeiro</td>
+                <td>65.236.546</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>46.265.265</td>
+            </tr>
+
+            <tr>
+                <td>Rio Janeiro</td>
+                <td>65.236.546</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45.919.049</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td>46.265.265</td>
+            </tr>
+
+            <tr>
+                <td>Rio Janeiro</td>
+                <td>65.236.546</td>
+            </tr>
+        </tbody>
+        
+        <tfoot>
+            <th scope="row" >Total de Habitantes</th>
+            <td><strong>45454654684</strong></td>
+        </tfoot>
+    
+    </table>
+
+
+    p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut facere dignissimos voluptates commodi magni ratione, totam illum laboriosam. Minima, animi? Placeat, facere tempora. Hic quasi voluptatem quae, similique dignissimos velit!Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut facere dignissimos voluptates commodi magni ratione, totam illum laboriosam. Minima, animi? Placeat, facere tempora. Hic quasi voluptatem quae, similique dignissimos velit!Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut facere dignissimos voluptates commodi magni ratione, totam illum laboriosam. Minima, animi? Placeat, facere tempora. Hic quasi voluptatem quae, similique dignissimos velit!Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut facere dignissimos voluptates commodi magni ratione, totam illum laboriosam. Minima, animi? Placeat, facere tempora. Hic quasi voluptatem quae, similique dignissimos velit!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut facere dignissimos voluptates commodi magni ratione, totam illum laboriosam. Minima, animi? Placeat, facere tempora. Hic quasi voluptatem quae, similique dignissimos velit!</p>   
+        pLorem ipsum dolor sit amet consectetur adipisicing elit. Aut facere dignissimos voluptates commodi magni ratione, totam illum laboriosam. Minima, animi? Placeat, facere tempora. Hic quasi voluptatem quae, similique dignissimos velit!
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut facere dignissimos voluptates commodi magni ratione, totam illum laboriosam. Minima, animi? Placeat, facere tempora. Hic quasi voluptatem quae, similique dignissimos velit!</p>
+        pLorem ipsum dolor sit amet consectetur adipisicing elit. Aut facere dignissimos voluptates commodi magni ratione, totam illum laboriosam. Minima, animi? Placeat, facere tempora. Hic quasi voluptatem quae, similique dignissimos velit!
+
+        <p>p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut facere dignissimos voluptates commodi magni ratione, totam illum laboriosam. Minima, animi? Placeat, facere tempora. Hic quasi voluptatem quae, similique dignissimos velit!Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut facere dignissimos voluptates commodi magni ratione, totam illum laboriosam. Minima, animi? Placeat, facere tempora. Hic quasi voluptatem quae, similique dignissimos velit!Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut facere dignissimos voluptates commodi magni ratione, totam illum laboriosam. Minima, animi? Placeat, facere tempora. Hic quasi voluptatem quae, similique dignissimos velit!Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut facere dignissimos voluptates commodi magni ratione, totam illum laboriosam. Minima, animi? Placeat, facere tempora. Hic quasi voluptatem quae, similique dignissimos velit!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut facere dignissimos voluptates commodi magni ratione, totam illum laboriosam. Minima, animi? Placeat, facere tempora. Hic quasi voluptatem quae, similique dignissimos velit!</p>   
+        pLorem ipsum dolor sit amet consectetur adipisicing elit. Aut facere dignissimos voluptates commodi magni ratione, totam illum laboriosam. Minima, animi? Placeat, facere tempora. Hic quasi voluptatem quae, similique dignissimos velit!
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut facere dignissimos voluptates commodi magni ratione, totam illum laboriosam. Minima, animi? Placeat, facere tempora. Hic quasi voluptatem quae, similique dignissimos velit!</p>
+        pLorem ipsum dolor sit amet consectetur adipisicing elit. Aut facere dignissimos voluptates commodi magni ratione, totam illum laboriosam. Minima, animi? Placeat, facere tempora. Hic quasi voluptatem quae, similique dignissimos velit!</p>
+    <p>p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut facere dignissimos voluptates commodi magni ratione, totam illum laboriosam. Minima, animi? Placeat, facere tempora. Hic quasi voluptatem quae, similique dignissimos velit!Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut facere dignissimos voluptates commodi magni ratione, totam illum laboriosam. Minima, animi? Placeat, facere tempora. Hic quasi voluptatem quae, similique dignissimos velit!Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut facere dignissimos voluptates commodi magni ratione, totam illum laboriosam. Minima, animi? Placeat, facere tempora. Hic quasi voluptatem quae, similique dignissimos velit!Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut facere dignissimos voluptates commodi magni ratione, totam illum laboriosam. Minima, animi? Placeat, facere tempora. Hic quasi voluptatem quae, similique dignissimos velit!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut facere dignissimos voluptates commodi magni ratione, totam illum laboriosam. Minima, animi? Placeat, facere tempora. Hic quasi voluptatem quae, similique dignissimos velit!</p>   
+    pLorem ipsum dolor sit amet consectetur adipisicing elit. Aut facere dignissimos voluptates commodi magni ratione, totam illum laboriosam. Minima, animi? Placeat, facere tempora. Hic quasi voluptatem quae, similique dignissimos velit!
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut facere dignissimos voluptates commodi magni ratione, totam illum laboriosam. Minima, animi? Placeat, facere tempora. Hic quasi voluptatem quae, similique dignissimos velit!</p>
+    pLorem ipsum dolor sit amet consectetur adipisicing elit. Aut facere dignissimos voluptates commodi magni ratione, totam illum laboriosam. Minima, animi? Placeat, facere tempora. Hic quasi voluptatem quae, similique dignissimos velit!</p>
+    <p>p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut facere dignissimos voluptates commodi magni ratione, totam illum laboriosam. Minima, animi? Placeat, facere tempora. Hic quasi voluptatem quae, similique dignissimos velit!Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut facere dignissimos voluptates commodi magni ratione, totam illum laboriosam. Minima, animi? Placeat, facere tempora. Hic quasi voluptatem quae, similique dignissimos velit!Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut facere dignissimos voluptates commodi magni ratione, totam illum laboriosam. Minima, animi? Placeat, facere tempora. Hic quasi voluptatem quae, similique dignissimos velit!Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut facere dignissimos voluptates commodi magni ratione, totam illum laboriosam. Minima, animi? Placeat, facere tempora. Hic quasi voluptatem quae, similique dignissimos velit!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut facere dignissimos voluptates commodi magni ratione, totam illum laboriosam. Minima, animi? Placeat, facere tempora. Hic quasi voluptatem quae, similique dignissimos velit!</p>   
+    pLorem ipsum dolor sit amet consectetur adipisicing elit. Aut facere dignissimos voluptates commodi magni ratione, totam illum laboriosam. Minima, animi? Placeat, facere tempora. Hic quasi voluptatem quae, similique dignissimos velit!
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut facere dignissimos voluptates commodi magni ratione, totam illum laboriosam. Minima, animi? Placeat, facere tempora. Hic quasi voluptatem quae, similique dignissimos velit!</p>
+    pLorem ipsum dolor sit amet consectetur adipisicing elit. Aut facere dignissimos voluptates commodi magni ratione, totam illum laboriosam. Minima, animi? Placeat, facere tempora. Hic quasi voluptatem quae, similique dignissimos velit!</p>
+
+</body>
+</html>
